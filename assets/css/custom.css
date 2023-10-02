@@ -16,7 +16,7 @@ a {
 }
 ul li {
   list-style-type: none;
-  text-align: right !important;
+  text-align: right;
 }
 p {
   color: #6084a4;
@@ -925,6 +925,89 @@ p {
   padding-bottom: 50px;
   background-color: #f7fafd;
   padding-top: 80px;
+}
+
+/* ------------------ start pricing area ----------------- */
+.pricing-area {
+  z-index: 1;
+  background-color: #f9f6f6;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.pricing-table {
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding-bottom: 35px;
+  transition: 0.5s;
+}
+.pricing-table:hover:not(.active-plan),
+.pricing-table:active:not(.active-plan) {
+  transform: translateY(-10px);
+}
+.pricing-table .pricing-header {
+  background: #fff;
+  position: relative;
+  padding: 30px 20px;
+  border-radius: 5px 5px 0 0;
+  border-bottom: 1px solid #eee;
+  transition: 0.8s;
+  margin-bottom: 30px;
+  z-index: 1;
+}
+.pricing-table .pricing-header {
+  font-size: 18px;
+  transition: 0.5s;
+  margin-bottom: 0;
+}
+.pricing-table:hover .pricing-header {
+  color: #fff;
+  border-radius: 5px 5px 0 0;
+  background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+}
+.pricing-table .price {
+  margin-bottom: 30px;
+}
+.pricing-table .price span {
+  color: #44ce6f;
+  font-size: 26px;
+  font-weight: 600;
+}
+.pricing-table .price span sup {
+  font-weight: 500;
+}
+.pricing-table .price span span {
+  font-size: 14px;
+  font-weight: 500;
+}
+.pricing-table .pricing-features ul {
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.pricing-table .pricing-features ul li {
+  color: #ccdcea;
+  margin-bottom: 12px;
+  text-decoration: line-through;
+  text-align: center !important;
+}
+.pricing-table .pricing-features li.active {
+  color: #6084a4;
+  text-decoration: none;
+}
+.pricing-table.active-plan {
+  top: -10px;
+}
+.pricing-table.active-plan .pricing-header {
+  color: #fff;
+  border-radius: 5px 5px 0 0;
+  background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+}
+
+.pricing-table.active-plan .btn.btn-primary {
+  background: #c679e3;
+  box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
 }
 
 /* --------------- keyframes ------------- */
