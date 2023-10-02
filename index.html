@@ -9,38 +9,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Mukta:wght@200;300;400;500;600;700;800&family=Pacifico&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
         integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet"
+        type="text/css" />
     <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous"
+        defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet"
+        crossorigin="anonymous">
 </head>
 
 <body>
-    <header id="header" class="header-main">
-        <nav class="container-fluid navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container">
-                <!-- <div class="startp-responsive-nav">
-                    <div class="container">
-                        <div class="startp-responsive-menu">
-                            <div class="logo"> <a href="index.html"> <img src="assets/img/logo.png" alt="logo"> </a>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-                <a class="navbar-brand" href="#">
-                    <img src="assets/img/logo.png" alt="logo" class="img-fluid">
-                </a>
-                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button> -->
+    <header id="header" class="header-nav">
+        <div class="container">
+            <nav class="container-fluid navbar navbar-expand-lg navigation ">
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav nav me-auto mb-2 mb-lg-0">
+                    <a class="navbar-brand ms-0" href="#">
+                        <img src="assets/img/logo.png" alt="logo" class="img-fluid">
+                    </a>
+                    <ul class="navbar-nav nav me-auto mb-2 mb-lg-0 pe-0">
                         <li class="nav-item">
-                            <a class="nav-link active dropdown" aria-current="page" href="#">خانه
+                            <a class="nav-link active" href="#">خانه
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" class="feather feather-chevron-down">
@@ -49,22 +43,7 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li class="nav-item">
-                                    <a class="dropdown-item active" href="#">صفخه اصلی 1
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                            stroke-linecap="round" stroke-linejoin="round"
-                                            class="feather feather-chevron-left">
-                                            <polyline points="15 18 9 12 15 6"></polyline>
-                                        </svg>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item"><a href="#" class="nav-link active">سبز روشن</a></li>
-                                        <li class="nav-item"><a href="#" class="nav-link">قهوه ای</a></li>
-                                        <li class="nav-item"><a href="#" class="nav-link">صورتی</a></li>
-                                        <li class="nav-item"><a href="#" class="nav-link">بنفش</a></li>
-                                    </ul>
-                                </li>
-                                <li><a class="dropdown-item" href="#">صفخه اصلی 2
+                                    <a class="nav-link active" href="#">صفخه اصلی 1
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -80,7 +59,7 @@
                                         <li class="nav-item"><a href="#" class="nav-link">بنفش</a></li>
                                     </ul>
                                 </li>
-                                <li><a class="dropdown-item" href="#">صفخه اصلی 3
+                                <li><a class="nav-item" href="#">صفخه اصلی 2
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -89,14 +68,14 @@
                                         </svg>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li class="nav-item"><a href="#" class="nav-link active">سبز روشن</a>
+                                        <li class="nav-item"><a href="#" class="nav-link">سبز روشن</a>
                                         </li>
                                         <li class="nav-item"><a href="#" class="nav-link">قهوه ای</a></li>
                                         <li class="nav-item"><a href="#" class="nav-link">صورتی</a></li>
                                         <li class="nav-item"><a href="#" class="nav-link">بنفش</a></li>
                                     </ul>
                                 </li>
-                                <li><a class="dropdown-item" href="#">صفخه اصلی 4
+                                <li><a class="nav-item" href="#">صفخه اصلی 3
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -105,14 +84,14 @@
                                         </svg>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li class="nav-item"><a href="#" class="nav-link active">سبز روشن</a>
+                                        <li class="nav-item"><a href="#" class="nav-link">سبز روشن</a>
                                         </li>
                                         <li class="nav-item"><a href="#" class="nav-link">قهوه ای</a></li>
                                         <li class="nav-item"><a href="#" class="nav-link">صورتی</a></li>
                                         <li class="nav-item"><a href="#" class="nav-link">بنفش</a></li>
                                     </ul>
                                 </li>
-                                <li><a class="dropdown-item" href="#"> صفخه اصلی 5
+                                <li><a class="nav-item" href="#">صفخه اصلی 4
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -121,14 +100,14 @@
                                         </svg>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li class="nav-item"><a href="#" class="nav-link active">سبز روشن</a>
+                                        <li class="nav-item"><a href="#" class="nav-link">سبز روشن</a>
                                         </li>
                                         <li class="nav-item"><a href="#" class="nav-link">قهوه ای</a></li>
                                         <li class="nav-item"><a href="#" class="nav-link">صورتی</a></li>
                                         <li class="nav-item"><a href="#" class="nav-link">بنفش</a></li>
                                     </ul>
                                 </li>
-                                <li><a class="dropdown-item" href="#"> صفخه اصلی 6
+                                <li><a class="nav-item" href="#"> صفخه اصلی 5
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -137,14 +116,14 @@
                                         </svg>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li class="nav-item"><a href="#" class="nav-link active">سبز روشن</a>
+                                        <li class="nav-item"><a href="#" class="nav-link">سبز روشن</a>
                                         </li>
                                         <li class="nav-item"><a href="#" class="nav-link">قهوه ای</a></li>
                                         <li class="nav-item"><a href="#" class="nav-link">صورتی</a></li>
                                         <li class="nav-item"><a href="#" class="nav-link">بنفش</a></li>
                                     </ul>
                                 </li>
-                                <li><a class="dropdown-item" href="#">صفخه اصلی 7
+                                <li><a class="nav-item" href="#"> صفخه اصلی 6
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -153,14 +132,14 @@
                                         </svg>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li class="nav-item"><a href="#" class="nav-link active">سبز روشن</a>
+                                        <li class="nav-item"><a href="#" class="nav-link">سبز روشن</a>
                                         </li>
                                         <li class="nav-item"><a href="#" class="nav-link">قهوه ای</a></li>
                                         <li class="nav-item"><a href="#" class="nav-link">صورتی</a></li>
                                         <li class="nav-item"><a href="#" class="nav-link">بنفش</a></li>
                                     </ul>
                                 </li>
-                                <li><a class="dropdown-item" href="#"> صفخه اصلی 8
+                                <li><a class="nav-item" href="#">صفخه اصلی 7
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -169,14 +148,14 @@
                                         </svg>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li class="nav-item"><a href="#" class="nav-link active">سبز روشن</a>
+                                        <li class="nav-item"><a href="#" class="nav-link">سبز روشن</a>
                                         </li>
                                         <li class="nav-item"><a href="#" class="nav-link">قهوه ای</a></li>
                                         <li class="nav-item"><a href="#" class="nav-link">صورتی</a></li>
                                         <li class="nav-item"><a href="#" class="nav-link">بنفش</a></li>
                                     </ul>
                                 </li>
-                                <li><a class="dropdown-item" href="#"> صفخه اصلی 9
+                                <li><a class="nav-item" href="#"> صفخه اصلی 8
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -185,14 +164,14 @@
                                         </svg>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li class="nav-item"><a href="#" class="nav-link active">سبز روشن</a>
+                                        <li class="nav-item"><a href="#" class="nav-link">سبز روشن</a>
                                         </li>
                                         <li class="nav-item"><a href="#" class="nav-link">قهوه ای</a></li>
                                         <li class="nav-item"><a href="#" class="nav-link">صورتی</a></li>
                                         <li class="nav-item"><a href="#" class="nav-link">بنفش</a></li>
                                     </ul>
                                 </li>
-                                <li><a class="dropdown-item" href="#">صفخه اصلی 10
+                                <li><a class="nav-item" href="#"> صفخه اصلی 9
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -201,14 +180,14 @@
                                         </svg>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li class="nav-item"><a href="#" class="nav-link active">سبز روشن</a>
+                                        <li class="nav-item"><a href="#" class="nav-link">سبز روشن</a>
                                         </li>
                                         <li class="nav-item"><a href="#" class="nav-link">قهوه ای</a></li>
                                         <li class="nav-item"><a href="#" class="nav-link">صورتی</a></li>
                                         <li class="nav-item"><a href="#" class="nav-link">بنفش</a></li>
                                     </ul>
                                 </li>
-                                <li><a class="dropdown-item" href="#"> صفخه اصلی ثابت
+                                <li><a class="nav-item" href="#">صفخه اصلی 10
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -217,61 +196,1613 @@
                                         </svg>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li class="nav-item"><a href="#" class="nav-link active">پیشنمایش 1</a>
+                                        <li class="nav-item"><a href="#" class="nav-link">سبز روشن</a>
+                                        </li>
+                                        <li class="nav-item"><a href="#" class="nav-link">قهوه ای</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">صورتی</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">بنفش</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="nav-item" href="#"> صفخه اصلی ثابت
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-chevron-left">
+                                            <polyline points="15 18 9 12 15 6"></polyline>
+                                        </svg>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item"><a href="#" class="nav-link">پیشنمایش 1</a>
                                         </li>
                                         <li class="nav-item"><a href="#" class="nav-link">پیشنمایش 2</a></li>
                                         <li class="nav-item"><a href="#" class="nav-link">پیشنمایش 3</a></li>
                                     </ul>
                                 </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">درباره ما
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-chevron-down">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a href="#" class="nav-link">درباره ما 1</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">درباره ما 2</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">درباره ما 3</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">
+                                صفخات
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-chevron-down">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="nav-item" href="#">امکانات
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-chevron-left">
+                                            <polyline points="15 18 9 12 15 6"></polyline>
+                                        </svg>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item"><a href="#" class="nav-link ">امکانات</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">امکانات جداگانه</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="nav-item" href="#"> خدمات
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-chevron-left">
+                                            <polyline points="15 18 9 12 15 6"></polyline>
+                                        </svg>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item"><a href="#" class="nav-link ">خدمات 1</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link ">خدمات 2</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link ">خدمات 3</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link ">خدمات 4</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link ">خدمات 5</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">خدمات جداگانه</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="nav-item" href="#">بازخورد</a></li>
+                                <li><a class="nav-item" href="#">پروژه
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-chevron-left">
+                                            <polyline points="15 18 9 12 15 6"></polyline>
+                                        </svg>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item"><a href="#" class="nav-link ">پروژه 1</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link ">پروژه 2</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">پروژه جداگانه</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="nav-item" href="#">تیم ما</a></li>
+                                <li><a class="nav-item" href="#">قیمت ها</a></li>
+                                <li><a class="nav-item" href="#">سوالات متداول</a></li>
+                                <li><a class="nav-item" href="#">به زودی</a></li>
+                                <li><a class="nav-item" href="#">خطای 404</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">
+                                فروشگاه
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-chevron-down">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="nav-item" href="#">فروشگاه</a></li>
+                                <li><a class="nav-item" href="#">فروشگاه جداگانه</a></li>
+                                <li><a class="nav-item" href="#">سبد خرید</a></li>
+                                <li><a class="nav-item" href="#">بررسی</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">
+                                وبلاگ
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-chevron-down">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="nav-item" href="#">وبلاگ شبکه ای</a></li>
+                                <li><a class="nav-item" href="#"> وبلاگ سایدبار</a></li>
+                                <li><a class="nav-item" href="#">وبلاگ شبکه ای 2</a></li>
+                                <li><a class="nav-item" href="#">وبلاگ سایدبار 2</a></li>
+                                <li><a class="nav-item" href="#">وبلاگ شبکه ای 3</a></li>
+                                <li><a class="nav-item" href="#">وبلاگ سایدبار 3</a></li>
+                                <li><a class="nav-item" href="#">وبلاگ جداگانه</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">تماس با ما</a>
                         </li>
                     </ul>
-                    </li>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="feather feather-chevron-down">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
+                    <div class="option">
+                        <a href="#" class="shop position-relative">
+                            <i class="fa fa-shopping-cart"></i>
+                            <span class="badge rounded-circle p-0"> 0 </span>
                         </a>
-                        <ul class="dropdown-menu">
-                            <li class="nav-item"><a href="#" class="nav-link active">درباره ما 1</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">درباره ما 2</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">درباره ما 3</a></li>
-                        </ul>
-                    </li>
+                        <a href="#" class="btn btn-light">پشتیبانی</a>
+                        <a href="#" class="btn btn-primary">ورود</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">امکانات</a></li>
-                            <li><a class="dropdown-item" href="#"> خدمات</a></li>
-                            <li><a class="dropdown-item" href="#">بازخورد</a></li>
-                            <li><a class="dropdown-item" href="#">پروژه</a></li>
-                            <li><a class="dropdown-item" href="#">تیم ما</a></li>
-                            <li><a class="dropdown-item" href="#">قیمت ها</a></li>
-                            <li><a class="dropdown-item" href="#">سوالات متداول</a></li>
-                            <li><a class="dropdown-item" href="#">به زودی</a></li>
-                            <li><a class="dropdown-item" href="#">خطای 404</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                    </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+
+        <div>
+            <div class="container">
+                <nav class="navbar bg-body-tertiary side-nav">
+
+                    <button class="btn-bar" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                        <span>
+                            <i class="fa fa-bars"></i>
+                        </span>
+                    </button>
+
+
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                            </button>
+                            <a class="navbar-brand" href="#">
+                                <img src="assets/img/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="offcanvas-body" data-bs-scroll="true">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        خانه
+                                        <i class="fa fa-chevron-left"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item ">
+                                            <a class="nav-item active" href="#">صفخه اصلی 1
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="feather feather-chevron-left">
+                                                    <polyline points="15 18 9 12 15 6"></polyline>
+                                                </svg>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li class="nav-item "><a href="#" class="nav-link active">سبز
+                                                        روشن</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">قهوه ای</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">صورتی</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">بنفش</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="nav-item " href="#">صفخه اصلی 2
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="feather feather-chevron-left">
+                                                    <polyline points="15 18 9 12 15 6"></polyline>
+                                                </svg>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li class="nav-item "><a href="#" class="nav-link">سبز روشن</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">قهوه ای</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">صورتی</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">بنفش</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="nav-item " href="#">صفخه اصلی 3
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="feather feather-chevron-left">
+                                                    <polyline points="15 18 9 12 15 6"></polyline>
+                                                </svg>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li class="nav-item "><a href="#" class="nav-link">سبز روشن</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">قهوه ای</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">صورتی</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">بنفش</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="nav-item " href="#">صفخه اصلی 4
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="feather feather-chevron-left">
+                                                    <polyline points="15 18 9 12 15 6"></polyline>
+                                                </svg>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li class="nav-item "><a href="#" class="nav-link">سبز روشن</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">قهوه ای</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">صورتی</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">بنفش</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="nav-item " href="#"> صفخه اصلی 5
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="feather feather-chevron-left">
+                                                    <polyline points="15 18 9 12 15 6"></polyline>
+                                                </svg>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li class="nav-item "><a href="#" class="nav-link">سبز روشن</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">قهوه ای</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">صورتی</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">بنفش</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="nav-item " href="#"> صفخه اصلی 6
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="feather feather-chevron-left">
+                                                    <polyline points="15 18 9 12 15 6"></polyline>
+                                                </svg>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li class="nav-item "><a href="#" class="nav-link">سبز روشن</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">قهوه ای</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">صورتی</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">بنفش</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="nav-item " href="#">صفخه اصلی 7
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="feather feather-chevron-left">
+                                                    <polyline points="15 18 9 12 15 6"></polyline>
+                                                </svg>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li class="nav-item "><a href="#" class="nav-link">سبز روشن</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">قهوه ای</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">صورتی</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">بنفش</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="nav-item " href="#"> صفخه اصلی 8
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="feather feather-chevron-left">
+                                                    <polyline points="15 18 9 12 15 6"></polyline>
+                                                </svg>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li class="nav-item "><a href="#" class="nav-link">سبز روشن</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">قهوه ای</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">صورتی</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">بنفش</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="nav-item " href="#"> صفخه اصلی 9
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="feather feather-chevron-left">
+                                                    <polyline points="15 18 9 12 15 6"></polyline>
+                                                </svg>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li class="nav-item "><a href="#" class="nav-link">سبز روشن</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">قهوه ای</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">صورتی</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">بنفش</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="nav-item " href="#">صفخه اصلی 10
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="feather feather-chevron-left">
+                                                    <polyline points="15 18 9 12 15 6"></polyline>
+                                                </svg>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li class="nav-item "><a href="#" class="nav-link">سبز روشن</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">قهوه ای</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">صورتی</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">بنفش</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="nav-item " href="#"> صفخه اصلی ثابت
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="feather feather-chevron-left">
+                                                    <polyline points="15 18 9 12 15 6"></polyline>
+                                                </svg>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li class="nav-item "><a href="#" class="nav-link">پیشنمایش
+                                                        1</a>
+                                                </li>
+                                                <li class="nav-item "><a href="#" class="nav-link">پیشنمایش
+                                                        2</a></li>
+                                                <li class="nav-item "><a href="#" class="nav-link">پیشنمایش
+                                                        3</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        درباره ما
+                                        <i class="fa fa-chevron-left"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="nav-item " href="#">درباره ما 1</a></li>
+                                        <li><a class="nav-item " href="#"> درباره ما 2</a></li>
+                                        <li><a class="nav-item " href="#"> درباره ما 3</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        صفحات
+                                        <i class="fa fa-chevron-left"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="nav-item " href="#">امکانات
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="feather feather-chevron-left">
+                                                    <polyline points="15 18 9 12 15 6"></polyline>
+                                                </svg>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="nav-item " href="#">امکانات</a></li>
+                                                <li><a class="nav-item " href="#"> امکانات جداگانه</a></li>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a class="nav-item " href="#"> خدمات
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-chevron-left">
+                                            <polyline points="15 18 9 12 15 6"></polyline>
+                                        </svg>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="nav-item " href="#">خدمات 1</a></li>
+                                        <li><a class="nav-item " href="#"> خدمات 2</a></li>
+                                        <li><a class="nav-item " href="#"> خدمات 3</a></li>
+                                        <li><a class="nav-item " href="#">خدمات 4</a></li>
+                                        <li><a class="nav-item " href="#">خدمات 5</a>
+                                        </li>
+                                        <li><a class="nav-item " href="#">خدمات جداگانه</a></li>
+                                        >
+                                    </ul>
+                                </li>
+                                <li><a class="nav-item " href="#"> بازخورد</a></li>
+                                <li><a class="nav-item " href="#">پروژه
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-chevron-left">
+                                            <polyline points="15 18 9 12 15 6"></polyline>
+                                        </svg>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="nav-item " href="#">پروژه 1</a></li>
+                                        <li><a class="nav-item " href="#"> پروژه 2</a></li>
+                                        <li><a class="nav-item " href="#">پروژه جداگانه</a></li>
+                                        >
+                                    </ul>
+                                </li>
+                                <li><a class="nav-item " href="#">تیم ما</a>
+                                </li>
+                                <li><a class="nav-item " href="#"> قیمت ها</a></li>
+                                <li><a class="nav-item " href="#">سوالات متداول</a></li>
+                                <li><a class="nav-item " href="#">به زودی</a></li>
+                                <li><a class="nav-item  border-0" href="#">خطای 404</a>
+                                </li>
+                            </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">فروشگاه
+                                    <i class="fa fa-chevron-left"></i>
+
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="nav-item " href="#">فروشگاه</a></li>
+                                    <li><a class="nav-item " href="#">فروشگاه جداگانه</a></li>
+                                    <li><a class="nav-item " href="#">سبد خرید</a></li>
+                                    <li><a class="nav-item " href="#">بررسی</a></li>
+                                    >
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    وبلاگ
+                                    <i class="fa fa-chevron-left"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="nav-item " href="#">آموزش رایگان ArcGIS Pro</a></li>
+                                    <li><a class="nav-item " href="#"> آموزش رایگان ArcGIS</a></li>
+                                    <li><a class="nav-item " href="#"> آموزش رایگان QGIS</a></li>
+                                    <li><a class="nav-item " href="#">آموزش رایگان گلوبال مپر</a></li>
+                                    <li><a class="nav-item " href="#">آموزش رایگان نرم افزار Surfer</a>
+                                    </li>
+                                    <li><a class="nav-item " href="#"> آموزش رایگان Civil 3D</a></li>
+                                    <li><a class="nav-item " href="#">آموزش رایگان AutoCAD</a></li>
+                                    <li><a class="nav-item  border-0" href="#">آموزش رایگان سنجش از دور</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">تماس با ما</a>
+                            </li>
+
+                            </ul>
+
+                            <div class="option mt-3">
+                                <a href="#" class="shop position-relative pe-3">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <span class="badge rounded-circle"> 0 </span>
+                                </a>
+                                <a href="#" class="btn btn-light">پشتیبانی</a>
+                                <a href="#" class="btn btn-primary">ورود</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- --------------------------- start main --------------------- -->
+
+
+    <main id="main" class="">
+
+        <!-- ---------------start main-banner -------------- -->
+
+        <div class="main-banner pt-5">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="hero-content">
+                            <h1>
+                                راه حل های امن IT را برای یک محیط امن تر کنید
+                            </h1>
+                            <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
+                                استاندارد صنعت بوده است. لورم
+                                ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد
+                                صنعت بوده است.</p>
+                            <a href="#" class="btn btn-primary">شروع کار</a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-12 align-items-end">
+                        <div class="banner-img">
+                            <img src="assets/img/main-pic.png" class="fadeInUp img-fluid" alt="main-pic"
+                                style="animation-name: fadeInUp;animation-delay: 0.6s;animation-duration: 1s;animation-fill-mode: both;">
+                        </div>
+                    </div>
                 </div>
             </div>
-        </nav>
-    </header>
+            <div class="shape">
+                <div class="shape1"><img src="assets/img/shape1.png" alt="shape"></div>
+                <div class="shape2 rotateme"><img src="assets/img/shape2.svg" alt="shape"></div>
+                <div class="shape3"><img src="assets/img/shape3.svg" alt="shape"></div>
+                <div class="shape4"><img src="assets/img/shape4.svg" alt="shape"></div>
+                <div class="shape5"><img src="assets/img/shape5.png" alt="shape"></div>
+                <div class="shape6 rotateme"><img src="assets/img/shape4.svg" alt="shape"></div>
+                <div class="shape7"><img src="assets/img/shape4.svg" alt="shape"></div>
+                <div class="shape8 rotateme"><img src="assets/img/shape2.svg" alt="shape"></div>
+            </div>
+        </div>
+        <!--------------- End Main Banner -------------->
+
+        <!-- --------------- start box---------------- -->
+        <section class="boxes-area mt-sm-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-box">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-server">
+                                    <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                                    <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                                    <line x1="6" y1="6" x2="6" y2="6"></line>
+                                    <line x1="6" y1="18" x2="6" y2="18"></line>
+                                </svg>
+                            </div>
+                            <h3>پیکربندی</h3>
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                                است، چاپگرها و متون بلکه روزنامه و مجله </p>
+                        </div>
+                    </div>
+
+                    <!-- ---- single-box ---  -->
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-box box2">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-code">
+                                    <polyline points="16 18 22 12 16 6"></polyline>
+                                    <polyline points="8 6 2 12 8 18"></polyline>
+                                </svg>
+                            </div>
+                            <h3>کد امنیتی</h3>
+                            <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
+                                استاندارد صنعت بوده است.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- ---- single-box ---  -->
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-box box3">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-users">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>
+                            </div>
+                            <h3>مدیریت تیم</h3>
+                            <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
+                                استاندارد صنعت بوده است.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- ---- single-box ---  -->
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-box box4">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-git-branch">
+                                    <line x1="6" y1="3" x2="6" y2="15"></line>
+                                    <circle cx="18" cy="6" r="3"></circle>
+                                    <circle cx="6" cy="18" r="3"></circle>
+                                    <path d="M18 9a9 9 0 0 1-9 9"></path>
+                                </svg>
+                            </div>
+                            <h3>دسترسی کنترل شده</h3>
+                            <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
+                                استاندارد صنعت بوده است.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!--------------------- End Boxes Area ------------------------>
+
+        <!-------------------- Start Cloud Hosting Services -------------->
+        <section class="services-area-cloud h-100">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-12 services-content">
+                        <div class="section-title">
+                            <h2>خدمات میزبانی ابری</h2>
+                            <div class="bar"></div>
+                            <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
+                                استاندارد صنعت
+                                بوده است.</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="box">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-database">
+                                        <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                                        <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                                        <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                                    </svg> پایگاه داده های ابری
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="box">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-globe">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                                        <path
+                                            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                                        </path>
+                                    </svg> میزبانی وب سایت
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="box"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+                                        <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
+                                        <polyline points="13 2 13 9 20 9"></polyline>
+                                    </svg> ذخیره سازی پرونده </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="box">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-trending-up">
+                                        <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                                        <polyline points="17 6 23 6 23 12"></polyline>
+                                    </svg> تجارت فارکس
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="box">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-folder">
+                                        <path
+                                            d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z">
+                                        </path>
+                                    </svg> نسخه پشتیبان
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="box">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-monitor">
+                                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                        <line x1="8" y1="21" x2="16" y2="21"></line>
+                                        <line x1="12" y1="17" x2="12" y2="21"></line>
+                                    </svg> دسک تاپ از راه دور
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="box">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-mail">
+                                        <path
+                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                        </path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg> سرورهای ایمیل
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="box">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-cloud">
+                                        <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+                                    </svg> ابر ترکیبی
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 services-left-image">
+                        <img src="assets/img/cercle-shape.png" class="bg-image rotateme" alt="shape">
+                        <img src="assets/img/main-pic (2).png" class="cloud-img fadeInUp img-fluid"
+                            data-wow-delay="0.6s" alt="main-pic"
+                            style="animation-name: fadeInUp;animation-delay: 0.6s;animation-duration: 1s;animation-fill-mode: both; visibility: visible;animation-delay: 0.6s;animation-name: fadeInUp;">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------- End Cloud Hosting Services --------------->
+
+        <!--------------- Start Design & Development Services ---------------->
+        <section class="services-area h-100">
+            <div class="container">
+                <div class="row h-100 justify-content-center">
+                    <div class="col-lg-6 col-md-12 services-right-image mb-lg-0 mb-sm-5 pb-5">
+                        <img src="assets/img/cercle-shape.png" class="bg-image rotateme" alt="shape">
+                        <img src="assets/img/main-pic (3).png" class="fadeInUp host-img" alt="main-pic"
+                            style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+                    </div>
+                    <div class="col-lg-6 col-md-12 services-content">
+                        <div class="section-title">
+                            <h2>طراحی و توسعه</h2>
+                            <div class="bar"></div>
+                            <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
+                                استاندارد صنعت
+                                بوده است.</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="box">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-layout">
+                                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                        <line x1="3" y1="9" x2="21" y2="9"></line>
+                                        <line x1="9" y1="21" x2="9" y2="9"></line>
+                                    </svg> طراحی تعاملی
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="box">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-code">
+                                        <polyline points="16 18 22 12 16 6"></polyline>
+                                        <polyline points="8 6 2 12 8 18"></polyline>
+                                    </svg> توسعه وب
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="box">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-smartphone">
+                                        <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                                        <line x1="12" y1="18" x2="12" y2="18"></line>
+                                    </svg> توسعه برنامه های اندروید
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="box">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-code">
+                                        <polyline points="16 18 22 12 16 6"></polyline>
+                                        <polyline points="8 6 2 12 8 18"></polyline>
+                                    </svg> توسعه وب Laravel
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="box">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-smartphone">
+                                        <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                                        <line x1="12" y1="18" x2="12" y2="18"></line>
+                                    </svg> توسعه برنامه های iOS
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="box">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-pen-tool">
+                                        <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                                        <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                                        <path d="M2 2l7.586 7.586"></path>
+                                        <circle cx="11" cy="11" r="2"></circle>
+                                    </svg> طراحی کاربری
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="box">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-shopping-cart">
+                                        <circle cx="9" cy="21" r="1"></circle>
+                                        <circle cx="20" cy="21" r="1"></circle>
+                                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6">
+                                        </path>
+                                    </svg> توسعه تجارت الکترونیکی
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="box">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-check-circle">
+                                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                    </svg> طراحی آماده چاپ
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!----------------- End Design & Development Services --------------------->
+
+        <!----------------------- Start Features Area ---------------------->
+        <section class="features-area">
+            <div class="container">
+                <div class="section-title">
+                    <h2>ویژگی های ما</h2>
+                    <div class="bar"></div>
+                    <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت
+                        بوده
+                        است.</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="single-features">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-settings">
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                    <path
+                                        d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <h3>زیرساخت باور نکردنی</h3>
+                            <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
+                                استاندارد صنعت
+                                بوده است.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="single-features">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-mail">
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                    </path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <h3>اعلان های ایمیل</h3>
+                            <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
+                                استاندارد صنعت
+                                بوده است.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="single-features">
+                            <div class="icon icon-bg2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-grid">
+                                    <rect x="3" y="3" width="7" height="7"></rect>
+                                    <rect x="14" y="3" width="7" height="7"></rect>
+                                    <rect x="14" y="14" width="7" height="7"></rect>
+                                    <rect x="3" y="14" width="7" height="7"></rect>
+                                </svg>
+                            </div>
+                            <h3>داشبورد ساده</h3>
+                            <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
+                                استاندارد صنعت
+                                بوده است.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="single-features">
+                            <div class="icon icon-bg2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-info">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <line x1="12" y1="16" x2="12" y2="12"></line>
+                                    <line x1="12" y1="8" x2="12" y2="8"></line>
+                                </svg>
+                            </div>
+                            <h3>بازیابی اطلاعات</h3>
+                            <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
+                                استاندارد صنعت
+                                بوده است.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="single-features">
+                            <div class="icon icon-bg3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-mouse-pointer">
+                                    <path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z"></path>
+                                    <path d="M13 13l6 6"></path>
+                                </svg>
+                            </div>
+                            <h3>عملکردها</h3>
+                            <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
+                                استاندارد صنعت
+                                بوده است.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="single-features">
+                            <div class="icon icon-bg3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-bell">
+                                    <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                                    <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                                </svg>
+                            </div>
+                            <h3>یادآوری مهلت</h3>
+                            <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
+                                استاندارد صنعت
+                                بوده است.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------ End Features Area ----------------->
+
+        <!------------------ Start Team Area ----------------->
+        <section class="team-area">
+            <div class="container">
+                <div class="section-title">
+                    <h2>تیم فنی ما</h2>
+                    <div class="bar"></div>
+                    <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت
+                        بوده
+                        است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد.</p>
+                </div>
+            </div>
+
+
+            <div class="swiffy-slider slider-item-show4 slider-nav-round slider-nav-page" dir="ltr">
+                <ul class="slider-container">
+                    <li>
+                        <div class="single-team">
+                            <div class="team-image">
+                                <img src="assets/img/1.jpg" alt="image">
+                            </div>
+                            <div class="team-content">
+                                <div class="team-info">
+                                    <h3>جاش باتلر</h3> <span>سئوکار وب</span>
+                                </div>
+                                <ul>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-facebook">
+                                                <path
+                                                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z">
+                                                </path>
+                                            </svg></a></li>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-twitter">
+                                                <path
+                                                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                                                </path>
+                                            </svg></a></li>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-linkedin">
+                                                <path
+                                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                                </path>
+                                                <rect x="2" y="9" width="4" height="12"></rect>
+                                                <circle cx="4" cy="4" r="2"></circle>
+                                            </svg></a></li>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-gitlab">
+                                                <path
+                                                    d="M22.65 14.39L12 22.13 1.35 14.39a.84.84 0 0 1-.3-.94l1.22-3.78 2.44-7.51A.42.42 0 0 1 4.82 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.49h8.1l2.44-7.51A.42.42 0 0 1 18.6 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.51L23 13.45a.84.84 0 0 1-.35.94z">
+                                                </path>
+                                            </svg></a></li>
+                                </ul>
+                                <p>لورم ایپسوم ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم استاندارد صنعت بوده
+                                    است. </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="single-team">
+                            <div class="team-image">
+                                <img src="assets/img/2.jpg" alt="image">
+                            </div>
+                            <div class="team-content">
+                                <div class="team-info">
+                                    <h3>جاش باتلر</h3> <span>سئوکار وب</span>
+                                </div>
+                                <ul>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-facebook">
+                                                <path
+                                                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z">
+                                                </path>
+                                            </svg></a></li>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-twitter">
+                                                <path
+                                                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                                                </path>
+                                            </svg></a></li>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-linkedin">
+                                                <path
+                                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                                </path>
+                                                <rect x="2" y="9" width="4" height="12"></rect>
+                                                <circle cx="4" cy="4" r="2"></circle>
+                                            </svg></a></li>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-gitlab">
+                                                <path
+                                                    d="M22.65 14.39L12 22.13 1.35 14.39a.84.84 0 0 1-.3-.94l1.22-3.78 2.44-7.51A.42.42 0 0 1 4.82 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.49h8.1l2.44-7.51A.42.42 0 0 1 18.6 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.51L23 13.45a.84.84 0 0 1-.35.94z">
+                                                </path>
+                                            </svg></a></li>
+                                </ul>
+                                <p>لورم ایپسوم ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم استاندارد صنعت بوده
+                                    است. </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="single-team">
+                            <div class="team-image">
+                                <img src="assets/img/3.jpg" alt="image">
+                            </div>
+                            <div class="team-content">
+                                <div class="team-info">
+                                    <h3>جاش باتلر</h3> <span>سئوکار وب</span>
+                                </div>
+                                <ul>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-facebook">
+                                                <path
+                                                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z">
+                                                </path>
+                                            </svg></a></li>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-twitter">
+                                                <path
+                                                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                                                </path>
+                                            </svg></a></li>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-linkedin">
+                                                <path
+                                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                                </path>
+                                                <rect x="2" y="9" width="4" height="12"></rect>
+                                                <circle cx="4" cy="4" r="2"></circle>
+                                            </svg></a></li>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-gitlab">
+                                                <path
+                                                    d="M22.65 14.39L12 22.13 1.35 14.39a.84.84 0 0 1-.3-.94l1.22-3.78 2.44-7.51A.42.42 0 0 1 4.82 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.49h8.1l2.44-7.51A.42.42 0 0 1 18.6 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.51L23 13.45a.84.84 0 0 1-.35.94z">
+                                                </path>
+                                            </svg></a></li>
+                                </ul>
+                                <p>لورم ایپسوم ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم استاندارد صنعت بوده
+                                    است. </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="single-team">
+                            <div class="team-image">
+                                <img src="assets/img/4.jpg" alt="image">
+                            </div>
+                            <div class="team-content">
+                                <div class="team-info">
+                                    <h3>جاش باتلر</h3> <span>سئوکار وب</span>
+                                </div>
+                                <ul>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-facebook">
+                                                <path
+                                                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z">
+                                                </path>
+                                            </svg></a></li>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-twitter">
+                                                <path
+                                                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                                                </path>
+                                            </svg></a></li>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-linkedin">
+                                                <path
+                                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                                </path>
+                                                <rect x="2" y="9" width="4" height="12"></rect>
+                                                <circle cx="4" cy="4" r="2"></circle>
+                                            </svg></a></li>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-gitlab">
+                                                <path
+                                                    d="M22.65 14.39L12 22.13 1.35 14.39a.84.84 0 0 1-.3-.94l1.22-3.78 2.44-7.51A.42.42 0 0 1 4.82 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.49h8.1l2.44-7.51A.42.42 0 0 1 18.6 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.51L23 13.45a.84.84 0 0 1-.35.94z">
+                                                </path>
+                                            </svg></a></li>
+                                </ul>
+                                <p>لورم ایپسوم ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم استاندارد صنعت بوده
+                                    است. </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="single-team">
+                            <div class="team-image">
+                                <img src="assets/img/5.jpg" alt="image">
+                            </div>
+                            <div class="team-content">
+                                <div class="team-info">
+                                    <h3>جاش باتلر</h3> <span>سئوکار وب</span>
+                                </div>
+                                <ul>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-facebook">
+                                                <path
+                                                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z">
+                                                </path>
+                                            </svg></a></li>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-twitter">
+                                                <path
+                                                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                                                </path>
+                                            </svg></a></li>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-linkedin">
+                                                <path
+                                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                                </path>
+                                                <rect x="2" y="9" width="4" height="12"></rect>
+                                                <circle cx="4" cy="4" r="2"></circle>
+                                            </svg></a></li>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-gitlab">
+                                                <path
+                                                    d="M22.65 14.39L12 22.13 1.35 14.39a.84.84 0 0 1-.3-.94l1.22-3.78 2.44-7.51A.42.42 0 0 1 4.82 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.49h8.1l2.44-7.51A.42.42 0 0 1 18.6 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.51L23 13.45a.84.84 0 0 1-.35.94z">
+                                                </path>
+                                            </svg></a></li>
+                                </ul>
+                                <p>لورم ایپسوم ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم استاندارد صنعت بوده
+                                    است. </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="single-team">
+                            <div class="team-image">
+                                <img src="assets/img/1.jpg" alt="image">
+                            </div>
+                            <div class="team-content">
+                                <div class="team-info">
+                                    <h3>جاش باتلر</h3> <span>سئوکار وب</span>
+                                </div>
+                                <ul>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-facebook">
+                                                <path
+                                                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z">
+                                                </path>
+                                            </svg></a></li>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-twitter">
+                                                <path
+                                                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                                                </path>
+                                            </svg></a></li>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-linkedin">
+                                                <path
+                                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                                </path>
+                                                <rect x="2" y="9" width="4" height="12"></rect>
+                                                <circle cx="4" cy="4" r="2"></circle>
+                                            </svg>
+                                        </a></li>
+                                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-gitlab">
+                                                <path
+                                                    d="M22.65 14.39L12 22.13 1.35 14.39a.84.84 0 0 1-.3-.94l1.22-3.78 2.44-7.51A.42.42 0 0 1 4.82 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.49h8.1l2.44-7.51A.42.42 0 0 1 18.6 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.51L23 13.45a.84.84 0 0 1-.35.94z">
+                                                </path>
+                                            </svg></a></li>
+                                </ul>
+                                <p>لورم ایپسوم ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم استاندارد صنعت بوده
+                                    است. </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="single-team">
+                            <div class="team-image">
+                                <img src="assets/img/2.jpg" alt="image">
+                            </div>
+                            <div class="team-content">
+                                <div class="team-info">
+                                    <h3>جاش باتلر</h3> <span>سئوکار وب</span>
+                                </div>
+                                <ul>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-facebook">
+                                                <path
+                                                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z">
+                                                </path>
+                                            </svg></a></li>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-twitter">
+                                                <path
+                                                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                                                </path>
+                                            </svg></a></li>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-linkedin">
+                                                <path
+                                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                                </path>
+                                                <rect x="2" y="9" width="4" height="12"></rect>
+                                                <circle cx="4" cy="4" r="2"></circle>
+                                            </svg></a></li>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-gitlab">
+                                                <path
+                                                    d="M22.65 14.39L12 22.13 1.35 14.39a.84.84 0 0 1-.3-.94l1.22-3.78 2.44-7.51A.42.42 0 0 1 4.82 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.49h8.1l2.44-7.51A.42.42 0 0 1 18.6 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.51L23 13.45a.84.84 0 0 1-.35.94z">
+                                                </path>
+                                            </svg></a></li>
+                                </ul>
+                                <p>لورم ایپسوم ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم استاندارد صنعت بوده
+                                    است. </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="single-team">
+                            <div class="team-image">
+                                <img src="assets/img/3.jpg" alt="image">
+                            </div>
+                            <div class="team-content">
+                                <div class="team-info">
+                                    <h3>جاش باتلر</h3> <span>سئوکار وب</span>
+                                </div>
+                                <ul>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-facebook">
+                                                <path
+                                                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z">
+                                                </path>
+                                            </svg></a></li>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-twitter">
+                                                <path
+                                                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                                                </path>
+                                            </svg></a></li>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-linkedin">
+                                                <path
+                                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                                </path>
+                                                <rect x="2" y="9" width="4" height="12"></rect>
+                                                <circle cx="4" cy="4" r="2"></circle>
+                                            </svg></a></li>
+                                    <li><a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-gitlab">
+                                                <path
+                                                    d="M22.65 14.39L12 22.13 1.35 14.39a.84.84 0 0 1-.3-.94l1.22-3.78 2.44-7.51A.42.42 0 0 1 4.82 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.49h8.1l2.44-7.51A.42.42 0 0 1 18.6 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.51L23 13.45a.84.84 0 0 1-.35.94z">
+                                                </path>
+                                            </svg></a></li>
+                                </ul>
+                                <p>لورم ایپسوم ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم استاندارد صنعت بوده
+                                    است. </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <button type="button" class="slider-nav" aria-label="Go left"></button>
+                <button type="button" class="slider-nav slider-nav-next" aria-label="Go left"></button>
+            </div>
+        </section>
+        <!---------- End Team Area -------------->
+
+        <!---------- Start Fun Facts Area ---------->
+
+        <section class="funfacts-area ptb-80">
+            <div class="container">
+                <div class="section-title">
+                    <h2>ما همیشه سعی می کنیم انتظار کاربران را درک کنیم</h2>
+                    <div class="bar"></div>
+                    <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت
+                        بوده
+                        است. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-6 col-sm-3">
+                        <div class="funfact">
+                            <h3>180k</h3>
+                            <p>بارگیری شده</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-6 col-sm-3">
+                        <div class="funfact">
+                            <h3>20K</h3>
+                            <p>بازخورد</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-6 col-sm-3">
+                        <div class="funfact">
+                            <h3>500+</h3>
+                            <p>کارگران</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-6 col-sm-3">
+                        <div class="funfact">
+                            <h3>70+</h3>
+                            <p>مشارکت کنندگان</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-cta-box">
+                    <h3>سوالی در مورد ما دارید؟</h3>
+                    <p>شک نکنید با ما تماس بگیرید</p><a href="#" class="btn btn-primary">تماس با ما</a>
+                </div>
+                <div class="map-bg ">
+                    <img src="assets/img/map.png" alt="map" class="img-fluid">
+                </div>
+            </div>
+        </section>
+        <!------------------ End Fun Facts Area ----------------->
+
+        <!---------------------- Start Works Area -------------------->
+        <section class="works-area">
+            <div class="container">
+                <div class="section-title">
+                    <h2>آخرین کارهای ما</h2>
+                    <div class="bar"></div>
+                    <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت
+                        بوده
+                        است.</p>
+                </div>
+            </div>
+            <div class="swiffy-slider slider-item-show4 slider-nav-next slider-nav-page carousel slide" dir="ltr"
+                data-bs-ride="carousel">
+                <ul class="slider-container">
+                    <li>
+                        <div class="ratio ratio-4x3">
+                            <img src="assets/img/1 (1).jpg" class="card-img-top d-block w-100" loading="lazy"
+                                alt="image">
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="ratio ratio-4x3">
+                            <img src="assets/img/phone.jpg" class="card-img-top d-block w-100" loading="lazy"
+                                alt="image">
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="ratio ratio-4x3">
+                            <img src="assets/img/2 (1).jpg" class="card-img-top d-block w-100" loading="lazy"
+                                alt="image">
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="ratio ratio-4x3">
+                            <img src="assets/img/4 (1).jpg" class="card-img-top d-block w-100" loading="lazy"
+                                alt="image">
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="ratio ratio-4x3">
+                            <img src="assets/img/phone.jpg" class="card-img-top d-block w-100" loading="lazy"
+                                alt="image">
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="ratio ratio-4x3">
+                            <img src="assets/img/5 (1).jpg" class="card-img-top d-block w-100" loading="lazy"
+                                alt="image">
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="ratio ratio-4x3">
+                            <img src="assets/img/1 (1).jpg" class="card-img-top d-block w-100" loading="lazy"
+                                alt="image">
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="ratio ratio-4x3">
+                            <img src="assets/img/4 (1).jpg" class="card-img-top d-block w-100" loading="lazy"
+                                alt="image">
+                        </div>
+                    </li>
+                </ul>
+
+                <button type="button" class="slider-nav slider-nav-back" aria-label="Go left"></button>
+                <button type="button" class="slider-nav slider-nav-next" aria-label="Go left"></button>
+            </div>
+
+            <div class="shape">
+                <div class="shape8 rotateme"><img src="assets/img/shape2.svg" alt="shape"></div>
+                <div class="shape2 rotateme"><img src="assets/img/shape2.svg" alt="shape"></div>
+                <div class="shape7"><img src="assets/img/shape4.svg" alt="shape"></div>
+                <div class="shape4"><img src="assets/img/shape4.svg" alt="shape"></div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <!-- ==================== JS================ -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
