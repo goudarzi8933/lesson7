@@ -783,10 +783,6 @@ p {
   z-index: -1;
   transition: 0.5s;
 }
-.owl-carousel .owl-item img {
-  display: block;
-  width: 100%;
-}
 .single-team .team-image img {
   border: 3px solid #cdf1d8;
   width: auto !important;
