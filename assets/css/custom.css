@@ -1102,6 +1102,49 @@ p {
   text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
 }
 
+/* ---------- Start Ready To Talk Area ------------ */
+.ready-to-talk {
+  text-align: center;
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 160px;
+  background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+}
+.ready-to-talk h3 {
+  font-size: 28px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.ready-to-talk p {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.ready-to-talk .btn-primary {
+  background: #c679e3;
+  box-shadow: 0 5px 20px 0 rgba(198, 121, 227, 0.25);
+}
+.ready-to-talk .btn::before,
+.ready-to-talk .btn::after {
+  background: #fff;
+}
+.ready-to-talk .btn-primary:hover,
+.ready-to-talk .btn-primary:focus {
+  color: #0e314c;
+  box-shadow: 0 5px 20px 0 rgba(68, 206, 111, 0.25);
+  transform: translateY(-5px);
+}
+.ready-to-talk span a {
+  margin-left: 15px;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.ready-to-talk span a {
+  margin-left: 0;
+  margin-right: 15px;
+}
+
 /* --------------- keyframes ------------- */
 
 @keyframes fadeInDown {
