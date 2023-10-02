@@ -165,11 +165,6 @@ nav .navbar-nav .nav-item .dropdown-menu li:hover a {
   width: 50%;
 }
 
-/* nav .option {
-  margin-left: 0;
-  margin-right: 20px;
-} */
-
 nav .option .shop:hover {
   color: #44ce6f;
 }
@@ -326,6 +321,8 @@ nav .option span {
   opacity: 1 !important;
   visibility: visible !important;
   top: -20px !important;
+  box-shadow: rgba(50, 50, 93, 0.713) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.62) 0px 1px 3px -1px;
 }
 nav .offcanvas .dropdown-toggle::after {
   display: none;
@@ -380,8 +377,7 @@ nav .offcanvas .dropdown-toggle::after {
 .main-banner .btn.btn-primary::before {
   background: #c679e3;
 }
- {
-}
+
 .main-banner .banner-image img {
   position: absolute;
 }
