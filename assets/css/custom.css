@@ -487,7 +487,6 @@ nav .offcanvas .dropdown-toggle::after {
 .boxes-area {
   position: relative;
   padding-bottom: 80px;
-  margin-top: -180px;
   z-index: 1;
 }
 .single-box {
